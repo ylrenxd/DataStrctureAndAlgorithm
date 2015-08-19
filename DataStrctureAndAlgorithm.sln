@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SelectionSort", "SelectionS
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeapSort", "HeapSort\HeapSort.vcxproj", "{ECBD6D53-116D-45C8-8D72-A04B19415E56}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RadixSort", "RadixSort\RadixSort.vcxproj", "{2CAA86FB-98AC-402F-842D-9084035EEF69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{ECBD6D53-116D-45C8-8D72-A04B19415E56}.Debug|Win32.Build.0 = Debug|Win32
 		{ECBD6D53-116D-45C8-8D72-A04B19415E56}.Release|Win32.ActiveCfg = Release|Win32
 		{ECBD6D53-116D-45C8-8D72-A04B19415E56}.Release|Win32.Build.0 = Release|Win32
+		{2CAA86FB-98AC-402F-842D-9084035EEF69}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CAA86FB-98AC-402F-842D-9084035EEF69}.Debug|Win32.Build.0 = Debug|Win32
+		{2CAA86FB-98AC-402F-842D-9084035EEF69}.Release|Win32.ActiveCfg = Release|Win32
+		{2CAA86FB-98AC-402F-842D-9084035EEF69}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
