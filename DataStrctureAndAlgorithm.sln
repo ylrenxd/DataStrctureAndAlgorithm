@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BubbleSort", "BubbleSort\Bu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SelectionSort", "SelectionSort\SelectionSort.vcxproj", "{09E05A39-B1C0-4EFF-8460-AC9DB4C4BB0F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeapSort", "HeapSort\HeapSort.vcxproj", "{ECBD6D53-116D-45C8-8D72-A04B19415E56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{09E05A39-B1C0-4EFF-8460-AC9DB4C4BB0F}.Debug|Win32.Build.0 = Debug|Win32
 		{09E05A39-B1C0-4EFF-8460-AC9DB4C4BB0F}.Release|Win32.ActiveCfg = Release|Win32
 		{09E05A39-B1C0-4EFF-8460-AC9DB4C4BB0F}.Release|Win32.Build.0 = Release|Win32
+		{ECBD6D53-116D-45C8-8D72-A04B19415E56}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECBD6D53-116D-45C8-8D72-A04B19415E56}.Debug|Win32.Build.0 = Debug|Win32
+		{ECBD6D53-116D-45C8-8D72-A04B19415E56}.Release|Win32.ActiveCfg = Release|Win32
+		{ECBD6D53-116D-45C8-8D72-A04B19415E56}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
