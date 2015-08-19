@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RadixSort", "RadixSort\Radi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSort", "MergeSort\MergeSort.vcxproj", "{4A5ECE01-1610-44E2-91B0-17D0E8599766}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuickSort", "QuickSort\QuickSort.vcxproj", "{37A2436F-191B-40E1-9F11-50ACFD531991}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -51,6 +53,10 @@ Global
 		{4A5ECE01-1610-44E2-91B0-17D0E8599766}.Debug|Win32.Build.0 = Debug|Win32
 		{4A5ECE01-1610-44E2-91B0-17D0E8599766}.Release|Win32.ActiveCfg = Release|Win32
 		{4A5ECE01-1610-44E2-91B0-17D0E8599766}.Release|Win32.Build.0 = Release|Win32
+		{37A2436F-191B-40E1-9F11-50ACFD531991}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37A2436F-191B-40E1-9F11-50ACFD531991}.Debug|Win32.Build.0 = Debug|Win32
+		{37A2436F-191B-40E1-9F11-50ACFD531991}.Release|Win32.ActiveCfg = Release|Win32
+		{37A2436F-191B-40E1-9F11-50ACFD531991}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
