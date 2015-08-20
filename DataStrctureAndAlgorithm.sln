@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChallengeSTLSort", "Challen
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YanghuiTriangle", "YanghuiTriangle\YanghuiTriangle.vcxproj", "{376C1B4F-032E-4C39-A9D3-FE6EBBA86540}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack", "Stack\Stack.vcxproj", "{4002B65F-FC9C-4E9D-8A11-309B42AC74A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -87,6 +89,10 @@ Global
 		{376C1B4F-032E-4C39-A9D3-FE6EBBA86540}.Debug|Win32.Build.0 = Debug|Win32
 		{376C1B4F-032E-4C39-A9D3-FE6EBBA86540}.Release|Win32.ActiveCfg = Release|Win32
 		{376C1B4F-032E-4C39-A9D3-FE6EBBA86540}.Release|Win32.Build.0 = Release|Win32
+		{4002B65F-FC9C-4E9D-8A11-309B42AC74A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4002B65F-FC9C-4E9D-8A11-309B42AC74A0}.Debug|Win32.Build.0 = Debug|Win32
+		{4002B65F-FC9C-4E9D-8A11-309B42AC74A0}.Release|Win32.ActiveCfg = Release|Win32
+		{4002B65F-FC9C-4E9D-8A11-309B42AC74A0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
