@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Polynomial", "Polynomial\Po
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NQueue", "NQueue\NQueue.vcxproj", "{8965F695-0F08-48F7-84F3-EA2C878300E6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChallengeSTLSort", "ChallengeSTLSort\ChallengeSTLSort.vcxproj", "{107CAE90-3980-4E2A-AC6D-309EE3159A19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -75,6 +77,10 @@ Global
 		{8965F695-0F08-48F7-84F3-EA2C878300E6}.Debug|Win32.Build.0 = Debug|Win32
 		{8965F695-0F08-48F7-84F3-EA2C878300E6}.Release|Win32.ActiveCfg = Release|Win32
 		{8965F695-0F08-48F7-84F3-EA2C878300E6}.Release|Win32.Build.0 = Release|Win32
+		{107CAE90-3980-4E2A-AC6D-309EE3159A19}.Debug|Win32.ActiveCfg = Debug|Win32
+		{107CAE90-3980-4E2A-AC6D-309EE3159A19}.Debug|Win32.Build.0 = Debug|Win32
+		{107CAE90-3980-4E2A-AC6D-309EE3159A19}.Release|Win32.ActiveCfg = Release|Win32
+		{107CAE90-3980-4E2A-AC6D-309EE3159A19}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
