@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseList", "ReverseList\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Polynomial", "Polynomial\Polynomial.vcxproj", "{C1774B10-C088-4442-81A4-2150E572C153}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NQueue", "NQueue\NQueue.vcxproj", "{8965F695-0F08-48F7-84F3-EA2C878300E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -69,6 +71,10 @@ Global
 		{C1774B10-C088-4442-81A4-2150E572C153}.Debug|Win32.Build.0 = Debug|Win32
 		{C1774B10-C088-4442-81A4-2150E572C153}.Release|Win32.ActiveCfg = Release|Win32
 		{C1774B10-C088-4442-81A4-2150E572C153}.Release|Win32.Build.0 = Release|Win32
+		{8965F695-0F08-48F7-84F3-EA2C878300E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8965F695-0F08-48F7-84F3-EA2C878300E6}.Debug|Win32.Build.0 = Debug|Win32
+		{8965F695-0F08-48F7-84F3-EA2C878300E6}.Release|Win32.ActiveCfg = Release|Win32
+		{8965F695-0F08-48F7-84F3-EA2C878300E6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
