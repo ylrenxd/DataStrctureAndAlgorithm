@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack", "Stack\Stack.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CursorList", "CursorList\CursorList.vcxproj", "{3A4CAB91-1EF5-4E02-8699-0990FAFF4CB2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PostExprToExprTree", "PostExprToExprTree\PostExprToExprTree.vcxproj", "{842B5D25-AEDE-461E-937F-D55EE2F726D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -99,6 +101,10 @@ Global
 		{3A4CAB91-1EF5-4E02-8699-0990FAFF4CB2}.Debug|Win32.Build.0 = Debug|Win32
 		{3A4CAB91-1EF5-4E02-8699-0990FAFF4CB2}.Release|Win32.ActiveCfg = Release|Win32
 		{3A4CAB91-1EF5-4E02-8699-0990FAFF4CB2}.Release|Win32.Build.0 = Release|Win32
+		{842B5D25-AEDE-461E-937F-D55EE2F726D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{842B5D25-AEDE-461E-937F-D55EE2F726D6}.Debug|Win32.Build.0 = Debug|Win32
+		{842B5D25-AEDE-461E-937F-D55EE2F726D6}.Release|Win32.ActiveCfg = Release|Win32
+		{842B5D25-AEDE-461E-937F-D55EE2F726D6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
