@@ -69,25 +69,23 @@ void MSort(ElementType a[], ElementType tmpArray[], int Left, int Right)
 
 void Merge(ElementType a[], ElementType tmpArray[], int Lpos, int Rpos, int RightEnd)
 {
-	int i, LeftEnd, NumElements, TmpPos;
+	int LeftEnd = Rpos - 1;
+	int i, j, k;
 
-	LeftEnd = Rpos - 1;
-	TmpPos = Lpos;
-	NumElements = RightEnd - Lpos + 1;
-
-	while(Lpos<=LeftEnd && Rpos<=RightEnd)
+	i = Lpos, j = Rpos, k = Lpos;
+	while(i<=LeftEnd && j<=RightEnd)
 	{
-		if(a[Lpos] <= a[Rpos])
-			tmpArray[TmpPos++] = a[Lpos++];
+		if(a[i] <= a[j])
+			tmpArray[k++] = a[i++];
 		else
-			tmpArray[TmpPos++] = a[Rpos++];
+			tmpArray[k++] = a[j++];
 	}
 
-	while(Lpos <= LeftEnd)
-		tmpArray[TmpPos++] = a[Lpos++];
-	while(Rpos <= RightEnd)
-		tmpArray[TmpPos++] = a[Rpos++];
+	while(i <= LeftEnd)
+		tmpArray[k++] = a[i++];
+	while(j <= RightEnd)
+		tmpArray[k++] = a[j++];
 
-	for(i=0; i<NumElements; ++i,--RightEnd)
-		a[RightEnd] = tmpArray[RightEnd];
+	for(k=Lpos; k<=RightEnd; ++k)
+		a[k] = tmpArray[k];
 }
