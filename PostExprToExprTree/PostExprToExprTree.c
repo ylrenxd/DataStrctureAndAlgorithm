@@ -81,12 +81,12 @@ PtrToNode Top(Stack S)
 //输入为后缀表达式
 PtrToNode CreateExprTree(const char *ExprStr)
 {
-	int i = 0;
+	int i;
 	Stack S;
 	PtrToNode pTmp;
 
 	S = CreateStack(50);
-	while(ExprStr[i] != '\0')
+	for(i=0; ExprStr[i] != '\0'; ++i)
 	{
 		pTmp = (PtrToNode)malloc(sizeof(struct Node));
 		if(ExprStr[i]!='+' && ExprStr[i]!='-' && ExprStr[i]!='*' && ExprStr[i]!='/')
@@ -103,7 +103,6 @@ PtrToNode CreateExprTree(const char *ExprStr)
 			pTmp->pLeft = Pop(S);
 			Push(S, pTmp);
 		}
-		++i;
 	}
 	pTmp = Pop(S);
 	DisposeStack(S);
