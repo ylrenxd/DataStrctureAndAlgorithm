@@ -57,9 +57,9 @@ void main()
 	strncpy(infix, "", 50);
 	strncpy(postfix, "", 50);
 
-	fputs("请输入中缀表达式：", stdout);
+	fputs("请输入中缀表达式：", stdout);	//a+b*c+(d*e+f)*g
 	gets(infix);
 	InfixToPostfix(infix, strlen(infix), postfix);
-	fputs("后缀表达式为：", stdout);
+	fputs("后缀表达式为：", stdout);		//abc*+de*f+g*+
 	puts(postfix);
 }
