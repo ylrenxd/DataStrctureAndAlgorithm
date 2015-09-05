@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PostExprToExprTree", "PostE
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTreeTraversalSwitch", "BinaryTreeTraversalSwitch\BinaryTreeTraversalSwitch.vcxproj", "{E3799AF5-7B14-4376-B6D3-DB59B1F01F2D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InfixToPostfix", "InfixToPostfix\InfixToPostfix.vcxproj", "{7536CF61-14BA-4C78-8149-A256AE1DD782}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -111,6 +113,10 @@ Global
 		{E3799AF5-7B14-4376-B6D3-DB59B1F01F2D}.Debug|Win32.Build.0 = Debug|Win32
 		{E3799AF5-7B14-4376-B6D3-DB59B1F01F2D}.Release|Win32.ActiveCfg = Release|Win32
 		{E3799AF5-7B14-4376-B6D3-DB59B1F01F2D}.Release|Win32.Build.0 = Release|Win32
+		{7536CF61-14BA-4C78-8149-A256AE1DD782}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7536CF61-14BA-4C78-8149-A256AE1DD782}.Debug|Win32.Build.0 = Debug|Win32
+		{7536CF61-14BA-4C78-8149-A256AE1DD782}.Release|Win32.ActiveCfg = Release|Win32
+		{7536CF61-14BA-4C78-8149-A256AE1DD782}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
